@@ -1,0 +1,15 @@
+services:
+  express1:
+    build: ./microservice1
+    container_name: express1
+    ports: 
+      - 3001:3000
+    volumes:
+      - ./microservice1:/home/node/express
+  express2:
+    build: ./microservice2
+    container_name: express2
+    ports: 
+      - 3002:3000
+    volumes:
+      - ./microservice2:/home/node/express
