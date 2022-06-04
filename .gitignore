@@ -2,3 +2,4 @@
 /microservice2/node_modules
 /microservice1/dist
 /microservice2/dist
+.rabbitmq_data
